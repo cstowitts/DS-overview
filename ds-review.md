@@ -4,7 +4,7 @@ DSs in order from simplest to most complex
     +a map without values
     +iterable
     +useful if you only need unique values (no duplicate vals in a set)
-    +useful, amortized O(1) runtime for get/set/delete operations 
+    +amortized O(1) runtime for get/set/delete operations 
     +useful to group unique things and check if a certain val is in the set
     +you're always pushing to the end
     +keeps keys in order of insertion, no idxs though
@@ -18,4 +18,7 @@ DSs in order from simplest to most complex
             to remove redundant elements
 
 
--
+-hashmaps
+    +set/get/has/delete O(1), keys/values/entries O(n)
+    +you have to know what you're looking for
+    +most performant data structure
